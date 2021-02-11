@@ -178,6 +178,15 @@ body {
     gap: 20px;
 }
 
+.no-list-icons > li {
+  text-indent: -5px;
+}
+
+.no-list-icons > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
 .warning-red {
     max-width: 500px;
     margin: 0 auto;
