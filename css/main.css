@@ -1,0 +1,329 @@
+@font-face {
+    font-family: "Open Sans";
+    src: local("/fonts/OpenSans-Regular.ttf") format("truetype"),
+         local("/fonts/OpenSans-Italic.ttf") format("truetype"),
+         local("/fonts/OpenSans-SemiBold.ttf") format("truetype"),
+         local("/fonts/OpenSans-SemiBoldItalic.ttf") format("truetype"),
+         local("/fonts/OpenSans-Bold.ttf") format("truetype"),
+         local("/fonts/OpenSans-BoldItalic.ttf") format("truetype"),
+         local("/fonts/OpenSans-ExtraBold.ttf") format("truetype"),
+         local("/fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype"),
+         local("/fonts/OpenSans-Light.ttf") format("truetype"),
+         local("/fonts/OpenSans-LightItalic.ttf") format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans";
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.hr-line {
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+}
+
+.p-justify {
+    text-align: justify;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 20px 10vw 20px 10vw;
+}
+
+.element-info {
+    margin-bottom: 50px;
+}
+
+.element {
+    padding: 0px 10px;
+}
+
+.general-info {
+    margin-top: 50px;
+}
+
+.warning-container {
+    display: flex;
+    background-color: #FFD66D;
+    justify-items: center;
+    padding: 15px 30px 15px 15px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.date {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+.registration-date {
+    padding: 10px;
+}
+
+.gallery {
+    text-align: center;
+    background: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.connect-us {
+    background: rgb(235,225,121);
+    background: linear-gradient(90deg, rgba(235,225,121,1) 0%, rgba(255,169,0,1) 0%, rgba(225,76,76,1) 58%);
+    padding: 20px;
+}
+
+.connect-us h2 {
+    color: white;
+    padding: 10px 10px 20px 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.connect-us-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.to-connect-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teachers-photos {
+    display: flex; 
+}
+
+.teacher-photo {
+    width: 50%;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    padding: 20px 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.button img {
+    height: 40px;
+}
+
+.button-connect-us {
+    display: inline-block;
+    color: black;
+}
+.social-media-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.button-social-media {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.no-list-icons {
+    list-style: none;
+    margin: 0;
+    padding: 2vw 3vw;
+}
+
+.no-list-icons li {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.warning-red {
+    max-width: 500px;
+    margin: 0 auto;
+    outline: 2px solid #e14c4c;
+    color: #e14c4c;
+}
+
+.warning-red-filled {
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+    background-color: #e14c4c;
+    font-weight: 600;
+    padding: 20px 50px;
+}
+
+.warning-red-filled .hr-line {
+    background-color: white;
+}
+
+.gradient-background {
+    padding: 5px;
+    color: white;
+    background: rgb(235,225,121);
+    background: linear-gradient(90deg, rgba(235,225,121,1) 0%, rgba(255,169,0,1) 0%, rgba(225,76,76,1) 58%);
+}
+
+.gradient-background .hr-line {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    background: rgb(235,225,121);
+    background: linear-gradient(90deg, rgba(235,225,121,1) 0%, rgba(255,169,0,1) 0%, rgba(225,76,76,1) 58%);
+}
+
+.gradient-background h2 {
+    background: rgb(235,225,121);
+    background: linear-gradient(90deg, rgba(235,225,121,1) 0%, rgba(255,169,0,1) 0%, rgba(225,76,76,1) 58%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cost-sale {
+    padding: 20px 50px;
+}
+
+.cost-info {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cost-info h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-photos {
+    display: none;
+}
+
+footer {
+    background-color: #535353;
+    padding: 20px 40px;
+    color: white;
+}
+
+.footer-element {
+    margin-bottom: 20px;
+}
+
+.footer-element .phone-element {
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .teachers-photos {
+        display: block; 
+    }
+    
+    .teacher-photo {
+        width: 100%;
+    }
+
+    .connect-us-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .warning-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        gap: 10px;
+    }
+
+    .gallery-slideshow {
+        display: none;
+    }
+
+    .gallery-photos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .warning-container p {
+        margin: 0;
+    }
+    .warning-container img {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .cost-info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .button {
+        padding: 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .cost-info {
+        text-align: center;
+        display: block;
+    }
+
+    .button {
+        font-size: 14px;
+        width: 250px;
+    }
+}
